@@ -1,0 +1,60 @@
+
+.start-page{
+height:max-content;
+width:max-content;
+text-align: center;
+background-color: aqua;
+margin-top: 10%;
+margin-left:25%;
+border-style:double;
+border-width: 10px;
+}
+
+.start_btn{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+
+}
+.start_btn button:hover{
+    color: darkgray;
+}
+
+.start_btn button{
+font-size: 15px;
+background-color: cyan;
+border-color: black;
+border-width: 10px;
+border-radius: 10px;
+}
+
+.quiz{
+width:600px;
+background: white;
+border-radius: 5px; 
+margin-left: 30%;
+margin-top: -10%;
+text-align: right;
+}
+
+.quiz header{
+background-color: gray;
+padding: 20px 30px;
+justify-content: space-between;
+border-radius:5px 5px 0 0;
+}
+
+.quiz header .quiz-title{
+font-size: 20px;
+font-weight:600;
+}
+
+.quiz header .timer{
+background-color: aliceblue;
+height: max-content;
+width: max-content;
+margin-left: 90%;
+margin-top: 10px;
+}
+
